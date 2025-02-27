@@ -1,0 +1,10 @@
+let r = prompt("Nhập bán kính: ");
+let h = prompt("Nhập chiều cao: ");
+let chuViDay = 2 * Math.PI * r;
+let dienTichXungQuanh = 2 * Math.PI * r * h;
+let dienTichToanPhan = dienTichXungQuanh + 2 * Math.PI * r * r;
+let theTich = Math.PI * r * r * h;
+console.log(`Chu vi đáy: ${chuViDay.toFixed(2)}`);
+console.log(`Diện tích xung quanh: ${dienTichXungQuanh.toFixed(2)}`);
+console.log(`Diện tích toàn phần: ${dienTichToanPhan.toFixed(2)}`);
+console.log(`Thể tích hình trụ: ${theTich.toFixed(2)}`);
